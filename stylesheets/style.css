@@ -1,13 +1,26 @@
-* {
+/* General styles */
+
+@font-face {
+  font-family: 'chomskyregular';
+  src: url('../fonts/chomsky-webfont.woff2') format('woff2'),
+       url('../fonts/chomsky-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
+/* header */
 .header-nav {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 5px 20px;
+  align-items: center;
 }
 
 .header-nav a {
@@ -15,7 +28,10 @@
   text-decoration: none;
 }
 
-.left-nav {
+.page-category{
+  font-family: nyt-franklin, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: .9rem;
 }
 
 .right-nav button {
@@ -33,4 +49,6 @@
 }
 
 .center-nav {
+  font-family: chomskyregular;
+  font-size: 1.5rem;
 }
