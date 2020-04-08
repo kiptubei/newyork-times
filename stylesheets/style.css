@@ -59,18 +59,17 @@
 }
 
 .main-section {
-  /* width: 80%; */
+
   display: flex;
-  justify-content: center;
+  justify-content: center
 }
 
 .article-section {
-  /* width: 945px; */
-  text-align: center;
+  width: 945px;
 }
 
 .article-header {
-  width: 945px;
+  width: inherit;
 }
 
 .article-h1 {
@@ -88,3 +87,13 @@
   color: grey;
   font-size: 0.85rem;
 }
+
+.article-container{
+  display: grid;
+  grid-template-columns:.5fr 2fr .5fr;
+}
+
+.article-text{
+  grid-column: 2;
+}
+
