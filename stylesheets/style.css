@@ -177,3 +177,34 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+
+.sketch-section > h2{
+  font-size: 1.5rem;
+  margin-bottom: .85rem;
+}
+
+.sketch-section > p{
+  font-size:.95rem;
+  margin-bottom: 2rem;
+}
+
+.inflation-sketches{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 140px 140px 140px 140px;
+  grid-column-gap: 20px;
+  background-image: url('../images/inflation.png');
+  background-position: center;
+  background-size: cover;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: .85rem;
+  line-height: 1.3;
+}
+
+.row1-para{
+  grid-row: 2;
+}
+
+.row2-para{
+  grid-row: 4;
+}
