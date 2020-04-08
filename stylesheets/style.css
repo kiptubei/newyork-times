@@ -53,3 +53,22 @@
   font-family: chomskyregular, sans-serif;
   font-size: 1.5rem;
 }
+
+.site-header {
+  border-bottom: 1px solid rgb(203, 204, 199);
+}
+
+.main-section {
+  /* width: 80%; */
+  text-align: center;
+}
+
+.article-section {
+  width: 945px;
+  text-align: center;
+}
+
+.image-div {
+  width: inherit;
+  text-align: center;
+}
