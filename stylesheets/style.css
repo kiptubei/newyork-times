@@ -60,15 +60,31 @@
 
 .main-section {
   /* width: 80%; */
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .article-section {
-  width: 945px;
+  /* width: 945px; */
   text-align: center;
+}
+
+.article-header {
+  width: 945px;
+}
+
+.article-h1 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.2rem;
 }
 
 .image-div {
   width: inherit;
   text-align: center;
+}
+
+.credits {
+  color: grey;
+  font-size: 0.85rem;
 }
