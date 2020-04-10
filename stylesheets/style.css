@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "chomskyregular";
-  src: url("../fonts/chomsky-webfont.woff2") format("woff2"),
+  src:
+    url("../fonts/chomsky-webfont.woff2") format("woff2"),
     url("../fonts/chomsky-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -95,7 +96,7 @@ body {
   text-align: left;
   padding: 2rem;
   font-size: 2.2rem;
-  font-family: 'Caladea', serif;
+  font-family: "Caladea", serif;
   font-style: italic;
 }
 
@@ -178,8 +179,8 @@ body {
   vertical-align: middle;
 }
 
-.bookmark-comment-div img{
-  margin-left: .6rem;
+.bookmark-comment-div img {
+  margin-left: 0.6rem;
 }
 
 .article-text p {
@@ -188,7 +189,7 @@ body {
   font-size: 1.3rem;
 }
 
-.editors-picks-aside{
+.editors-picks-aside {
   margin-left: 3rem;
 }
 
@@ -358,6 +359,23 @@ body {
   line-height: 1.4;
 }
 
+.home-page-link a {
+  text-decoration: none;
+  color: rgb(86, 123, 149);
+}
+
+.site-footer a {
+  text-decoration: none;
+  font-size: 0.65rem;
+  margin: 0 7px;
+  color: #777;
+}
+
+div[class^="footer-nav"] a {
+  text-decoration: none;
+  color: black;
+}
+
 .most-popular-aside a:hover {
   color: grey;
 }
@@ -396,11 +414,6 @@ body {
   font-size: 0.65rem;
 }
 
-.home-page-link a {
-  text-decoration: none;
-  color: rgb(86, 123, 149);
-}
-
 .footer-nav-news {
   grid-row: 2;
 }
@@ -410,9 +423,8 @@ div[class^="footer-nav-right"] {
   line-height: 2;
 }
 
-div[class^="footer-nav"] a {
-  text-decoration: none;
-  color: black;
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 div[class^="footer-nav"] a:hover {
@@ -424,7 +436,7 @@ div[class^="footer-nav"] a:hover {
 }
 
 .brand-T {
-  font-family: chomskyregular;
+  font-family: chomskyregular, serif;
   font-size: 16px;
 }
 
@@ -438,24 +450,13 @@ div[class^="footer-nav"] a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.site-footer a {
-  text-decoration: none;
-  font-size: 0.65rem;
-  margin: 0 7px;
-  color: #777;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-}
-
 .quick-update {
   border-top: 1px solid black;
   background-color: #f8f8f8;
   width: 100vw;
   position: fixed;
   z-index: 110;
-  bottom: 0px;
+  bottom: 0.001px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
   cursor: pointer;
