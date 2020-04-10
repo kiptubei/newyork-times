@@ -1,8 +1,9 @@
 # EMBEDDING IMAGES AND VIDEO
 
-> This project consists of building an HTML document that matches the appearance of youtube video player page.
+> This project consists of building an HTML document that matches the appearance of The New York Times page sample shown below.
+[The New York Times page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
-![screenshot](./youtube_screenshot.png)
+![screenshot](./images/app_screenshot.png)
 
 ## Built With
 
@@ -11,7 +12,7 @@
 
 ## Getting Started
 
-To test the code please clone the repository [here](https://github.com/haraphat01/mark_arafat_youtube.git)
+To test the code please clone the repository [here](https://github.com/kiptubei/newyork-times)
 
 Run the index file with Google Chrome Browser
 
@@ -23,7 +24,7 @@ HTML5 and CSS3 compatible browser
 
 You can use [raw githack](https://raw.githack.com/) to view this page directly from github.
 
-You can view the site itself [here](https://rawcdn.githack.com/haraphat01/mark_arafat_youtube/491817b9fbfbca10ba7039c20c6212c2d18bcfa6/index.html) .Have fun!
+You can view the site itself [here](https://rawcdn.githack.com/kiptubei/newyork-times/b8da8ff77969cf47df38ede2cb1cbc785c60450f/index.html) .Have fun!
 
 ## Authors
 
@@ -31,15 +32,14 @@ You can view the site itself [here](https://rawcdn.githack.com/haraphat01/mark_a
 
 - Github: [@kiptubei](https://github.com/kiptubei)
 
-👤 **Arafat Akata**
+👤 **Hubert MUGABO**
 
-- Github: [@haraphat01](https://github.com/haraphat01)
+- Github: [@haraphat01](https://github.com/mugberto)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
