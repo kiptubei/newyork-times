@@ -14,11 +14,11 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #f8f8f8;
 }
 
-.brand{
+.brand {
   font-family: chomskyregular, sans-serif;
   font-size: 1.4rem;
 }
@@ -69,7 +69,7 @@ body{
   width: 100vw;
   position: fixed;
   z-index: 100;
-  top: 0px;
+  top: 0.01px;
 }
 
 /* main */
@@ -238,6 +238,7 @@ body{
 
 .larry-buchanan-name-caption::before {
   content: "";
+  z-index: 100;
   display: block;
   width: 8%;
   padding-bottom: 20px;
@@ -346,6 +347,7 @@ body{
 .most-popular-aside p::after,
 .most-popular-aside h2::after {
   content: "";
+  z-index: 100;
   display: block;
   width: 100%;
   margin-top: 1.5rem;
@@ -355,72 +357,83 @@ body{
 
 /* Bottom navigation links styles*/
 
-.footer-nav{
+.footer-nav {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-template-rows: auto auto;
   grid-row-gap: 10px;
+  grid-column-gap: 70px;
   border-top: 4px double #ccc;
   padding-top: 1rem;
   margin: 1rem 2rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
-.brand{
+.brand {
   grid-row: 1;
-  grid-column: 1/ span 5;
+  grid-column: 1 / span 5;
 }
 
-.footer-nav-news{
+.home-page-link {
+  text-align: right;
+  font-size: 0.65rem;
+}
+
+.home-page-link a {
+  text-decoration: none;
+  color: rgb(86, 123, 149);
+}
+
+.footer-nav-news {
   grid-row: 2;
 }
 
-div[class^="footer-nav-right"]{
+div[class^="footer-nav-right"] {
   font-size: 0.8rem;
   line-height: 2;
 }
 
-div[class^="footer-nav"] a{
+div[class^="footer-nav"] a {
   text-decoration: none;
   color: black;
 }
 
-div[class^="footer-nav"] a:hover{
+div[class^="footer-nav"] a:hover {
   text-decoration: underline;
 }
 
-.material-icons.md-18{
+.material-icons.md-18 {
   font-size: 18px;
 }
 
-.brand-T{
+.brand-T {
   font-family: chomskyregular;
   font-size: 16px;
 }
 
 /* site footer */
 
-.site-footer{
+.site-footer {
   margin: 0 2rem 65px 2rem;
-  border-top:1px solid #ccc;
+  border-top: 1px solid #ccc;
   text-align: center;
   padding: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.site-footer a{
-  color: black;
+.site-footer a {
   text-decoration: none;
-  font-size: .65rem;
+  font-size: 0.65rem;
   margin: 0 7px;
   color: #777;
 }
-.site-footer a:hover{
+
+.site-footer a:hover {
   text-decoration: underline;
 }
 
-.quick-update{
+.quick-update {
   border-top: 1px solid black;
   background-color: #f8f8f8;
   width: 100vw;
@@ -428,22 +441,53 @@ div[class^="footer-nav"] a:hover{
   z-index: 110;
   bottom: 0px;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: .9rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
-.quick-update p{
+.quick-update p {
   text-align: center;
   padding: 1.3rem;
 }
 
-.expand{
+.expand {
   float: right;
   padding: 1rem 4rem 1rem 0;
   font-weight: bold;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
-.expand .fa{
+.expand .fa {
   margin-left: 2rem;
+}
+
+.footer-nav-subscribe {
+  border-left: 1px solid rgb(203, 204, 199);
+  padding-left: 1rem;
+}
+
+.footer-nav-subscribe-home {
+  font-size: 0.95rem;
+  font-weight: bolder;
+  line-height: 2rem;
+}
+
+.footer-nav-subscribe-home li:hover a {
+  text-decoration: underline;
+  text-align: right;
+}
+
+.footer-nav-subscribe-small-above::after {
+  content: "";
+  z-index: 100;
+  display: block;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-top: 1px solid rgb(203, 204, 199);
+}
+
+ul[class^="footer-nav-subscribe-small"] {
+  font-size: 0.7rem;
+  line-height: 2;
 }
