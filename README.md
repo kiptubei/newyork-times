@@ -1,4 +1,4 @@
-# Positioning And Floating Elements
+# POSITIONING AND FLOATING ELEMENTS
 
 > This project consists of building an HTML document that matches the appearance of The New York Times page sample shown below.
 [The New York Times page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
