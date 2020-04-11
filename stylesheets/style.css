@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "chomskyregular";
-  src:
-    url("../fonts/chomsky-webfont.woff2") format("woff2"),
+  src: url("../fonts/chomsky-webfont.woff2") format("woff2"),
     url("../fonts/chomsky-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -448,6 +447,7 @@ div[class^="footer-nav"] a:hover {
   text-align: center;
   padding: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
 }
 
 .quick-update {
