@@ -31,12 +31,15 @@ You can view the site itself [here](https://rawcdn.githack.com/kiptubei/newyork-
 👤 **Mark James Kiptubei**
 
 - Github: [@kiptubei](https://github.com/kiptubei)
-- Email: [kiptubei@gmail.com](kiptubei@gmail.com)
+- LinkedIn: [kiptubei](https://www.linkedin.com/in/mark-james-k-aa875829)
+- Email: kiptubei@gmail.com
 
 👤 **Hubert MUGABO**
 
 - Github: [@mugbarto](https://github.com/mugberto)
-- Email: [mugbarto@gmail.com](mugberto@gmail.com)
+- Twitter: [@mugberto](https://twitter.com/mugberto)
+- Linkedin: [mugberto](https://www.linkedin.com/in/hubert-mugabo-23144b6a/)
+- Email: mugbarto@gmail.com
 
 ## 🤝 Contributing
 
