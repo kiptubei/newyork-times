@@ -24,7 +24,7 @@ HTML5 and CSS3 compatible browser
 
 You can use [raw githack](https://raw.githack.com/) to view this page directly from github.
 
-You can view the site itself [here](https://rawcdn.githack.com/kiptubei/newyork-times/b8da8ff77969cf47df38ede2cb1cbc785c60450f/index.html) .Have fun!
+You can view the site itself [here](https://rawcdn.githack.com/kiptubei/newyork-times/a24b10804b1200a4e55ce521a53017110310044d/index.html) .Have fun!
 
 ## Authors
 
