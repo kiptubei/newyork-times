@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "chomskyregular";
-  src:
-    url("../fonts/chomsky-webfont.woff2") format("woff2"),
+  src: url("../fonts/chomsky-webfont.woff2") format("woff2"),
     url("../fonts/chomsky-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -16,7 +15,7 @@
 }
 
 body {
-  background-color: #f8f8f8;
+  border: 1px solid none;
 }
 
 .brand {
@@ -66,7 +65,7 @@ body {
 
 .site-header {
   border-bottom: 1px solid rgb(203, 204, 199);
-  background-color: #f8f8f8;
+  background-color: #fff;
   width: 100vw;
   position: fixed;
   z-index: 100;
@@ -162,12 +161,16 @@ body {
   border-radius: 50%;
   padding: 8px 8px;
   margin-left: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .fa-facebook {
   background-color: rgb(220, 220, 220);
   border-radius: 50%;
   padding: 7px 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .fa-bookmark-o,
@@ -282,12 +285,21 @@ body {
   width: inherit;
 }
 
+.outer-other-articles {
+  border: 1px solid none;
+  max-width: 2000px;
+  margin: auto;
+}
+
 .other-articles {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 5fr 2fr;
   grid-template-rows: auto auto;
   grid-column-gap: 2rem;
-  margin: 0 2rem;
+  justify-items: center;
+  border: 1px solid none;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .other-articles > * {
@@ -310,12 +322,18 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
-  grid-column-gap: 1rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 1rem;
+}
+
+.other-article-space {
+  width: 100%;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .other-article {
-  width: 300px;
+  width: 100%;
+  padding-right: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -336,6 +354,7 @@ body {
 .most-popular-aside {
   grid-column: 2;
   grid-row: 1 / span 2;
+  width: 100%;
 }
 
 .msa-captions {
@@ -354,9 +373,9 @@ body {
 .most-popular-aside a {
   color: black;
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 530;
   font-size: 1.2rem;
-  line-height: 1.4;
+  line-height: 1.2rem;
 }
 
 .home-page-link a {
@@ -386,8 +405,8 @@ div[class^="footer-nav"] a {
   z-index: 100;
   display: block;
   width: 100%;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
   border-top: 1px solid rgb(203, 204, 199);
 }
 
@@ -453,7 +472,7 @@ div[class^="footer-nav"] a:hover {
 
 .quick-update {
   border-top: 1px solid black;
-  background-color: #f8f8f8;
+  background-color: #fff;
   width: 100vw;
   position: fixed;
   z-index: 110;
