@@ -36,7 +36,7 @@ You can view the site itself [here](https://rawcdn.githack.com/kiptubei/newyork-
 👤 **Hubert MUGABO**
 
 - Github: [@mugbarto](https://github.com/mugberto)
-- Email: [mugbarto@gmail.com](kiptubei@gmail.com)
+- Email: [mugbarto@gmail.com](mugberto@gmail.com)
 
 ## 🤝 Contributing
 
