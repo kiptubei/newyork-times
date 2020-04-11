@@ -41,6 +41,7 @@ You can view the site itself [here](https://rawcdn.githack.com/kiptubei/newyork-
 - Linkedin: [mugberto](https://www.linkedin.com/in/hubert-mugabo-23144b6a/)
 - Email: mugbarto@gmail.com
 
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
