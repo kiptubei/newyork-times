@@ -24,17 +24,23 @@ HTML5 and CSS3 compatible browser
 
 You can use [raw githack](https://raw.githack.com/) to view this page directly from github.
 
-You can view the site itself [here](https://rawcdn.githack.com/kiptubei/newyork-times/b8da8ff77969cf47df38ede2cb1cbc785c60450f/index.html) .Have fun!
+You can view this page\(Live demo\) [here](https://rawcdn.githack.com/kiptubei/newyork-times/ac0fc7c295156e954af989879dcba108583f2b9b/index.html) .Have fun!
 
 ## Authors
 
 👤 **Mark James Kiptubei**
 
 - Github: [@kiptubei](https://github.com/kiptubei)
+- LinkedIn: [kiptubei](https://www.linkedin.com/in/mark-james-k-aa875829)
+- Email: kiptubei@gmail.com
 
 👤 **Hubert MUGABO**
 
-- Github: [@haraphat01](https://github.com/mugberto)
+- Github: [@mugbarto](https://github.com/mugberto)
+- Twitter: [@mugberto](https://twitter.com/mugberto)
+- Linkedin: [mugberto](https://www.linkedin.com/in/hubert-mugabo-23144b6a/)
+- Email: mugbarto@gmail.com
+
 
 ## 🤝 Contributing
 
